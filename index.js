@@ -8,7 +8,7 @@ var git = require('simple-git/promise');
 var target = "switchbrew.org"
 var wikiTextParser = new WikiTextParser(target);
 
-var repo_path = "git_repo"; // argv[2]
+var repo_path = "../switchbrew_backup_repo"; // argv[2]
 
 async function getRevisions(title) {
   console.log("Dumping revisions of " + title + "...")
