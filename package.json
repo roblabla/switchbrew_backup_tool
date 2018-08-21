@@ -1,0 +1,16 @@
+{
+  "name": "switchbrew_backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "parse-wikitext": "^0.3.3",
+    "simple-git": "^1.96.0"
+  }
+}
